@@ -1,0 +1,174 @@
+/*UNIVERSAL*/
+html,body{
+    margin:0px;
+    padding:0px;
+    font-family:'Courier New';
+    font-size:2vw;
+    color:#FFF;
+    background-color:#000;
+}
+.button{
+    border-radius:5px;
+    background-color:#F0C808;
+    color:#000;
+    padding:2.5%;
+    text-decoration:none;
+    border:2px solid #F0C808;
+    transition:.5s;
+    font-family:'Courier New';
+    cursor:pointer;
+}
+.button:hover{
+    background-color:transparent;
+    border:2px solid #F0C808;
+    color:#F0C808;
+}
+.responseMessage{
+    width:80%;
+    margin:2.5% auto;
+    padding:1%;
+    border-radius:2.5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color:#000;
+    background-color:#F0C808;
+    text-align:center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/*INDEX.PHP*/
+#auth{
+    background:url(background.jpg) no-repeat;
+    background-size:cover;
+    height:100vh;
+    width:100vw;
+    text-align:center;
+}
+#auth form{
+    display:block;
+    position:absolute;
+    background-color:rgba(255,255,255,.8);
+    border-radius:2.5px;
+    margin:auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:2.5%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+#auth label{
+    display:block;
+    margin:2.5% auto;
+}
+#auth input{
+    border-radius:2.5px;
+}
+#home{
+    text-align:center;
+    color:#000;
+}
+#home .welcome{
+    color:#FFF;
+    font-size:1.25em;
+    padding-top:10%;
+}
+#home ul{
+    list-style-type:none;
+    margin:0%;
+    padding:0%;
+    width:100%;
+}
+#home ul li{
+    display:inline-block;
+    width:20%;
+    margin:2.5% 0;
+}
+/*BEGINDROP.PHP*/
+#beginDrop{
+    width:70%;
+    margin:5% auto;
+    padding:2.5%;
+    background-color:#FFF;
+    border-radius:2.5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    text-align:center;
+    color:#000;
+}
+#beginDrop .formBlock{
+    display:inline-block;
+    width:20%;
+    margin:2.5%;
+}
+#beginDrop label{
+    font-size:.5em;
+    color:#000;
+}
+#beginDrop input{
+    width:20%;
+    font-size:.5em;
+    display:block;
+    margin:0 auto;
+    padding:5%;
+    color:#F0C808;
+    background-color:#000;
+    border-radius:2.5px;
+    border:2.5px solid #F0C808;
+    text-align:center;
+    font-family:"Courier New";
+}
+#beginDrop input:focus{
+    outline:none;
+}
+#beginDrop button,.button2{
+    font-size:.75em;
+    padding:1%;
+}
+#beginDrop button:hover,.button2:hover{
+    background-color:#F0C808;
+    color:#000;
+}
+/*DROP.PHP*/
+#drop .content{
+    width:70%;
+    margin:5% auto;
+    padding:2.5%;
+    background-color:#FFF;
+    border-radius:5px;
+    box-shadow: 0 1px 3px rgba(240,200,8,0.12), 0 1px 2px rgba(240,200,8,0.24);
+    text-align:center;
+    color:#000;
+}
+#drop .content ul{
+    list-style-type:none;
+}
+#drop .content ul li{
+    display:inline-block;
+    font-size:.75em;
+    margin:.5% 2.5%;
+    text-align:center;
+}
+#copyPasta{
+    resize: none;
+    width:90%;
+    height:auto;
+    margin:.5% auto;
+    padding:1%;
+    background-color:#EEE;
+    border-radius:2.5px;
+    text-align:left;
+}
+#nextStep2{
+    display:none;
+}
+#countDown{
+    display:none;
+    text-align:center;
+    margin:1.5% auto;
+}
+#dropLink{
+    display:block!important;
+    width:15%;
+    margin:.5% auto;
+}
